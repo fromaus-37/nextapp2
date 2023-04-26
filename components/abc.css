@@ -1,0 +1,3 @@
+.testclass {
+  background-color: rgb(var(--callout-rgb), 0.5);
+}

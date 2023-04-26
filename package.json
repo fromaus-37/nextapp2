@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "stylelint --allow-empty-input \"**/*.{css,scss}\" && next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "stylelint --allow-empty-input \"**/*.{css,scss}\" && next lint",
     "prepare": "husky install"
   },
   "dependencies": {
